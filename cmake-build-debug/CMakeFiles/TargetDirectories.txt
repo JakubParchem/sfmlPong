@@ -1,0 +1,3 @@
+C:/Users/kuba/Documents/GitHub/sfmlPong/cmake-build-debug/CMakeFiles/Pong.dir
+C:/Users/kuba/Documents/GitHub/sfmlPong/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/kuba/Documents/GitHub/sfmlPong/cmake-build-debug/CMakeFiles/rebuild_cache.dir
