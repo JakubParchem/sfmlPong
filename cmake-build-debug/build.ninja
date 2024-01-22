@@ -57,6 +57,22 @@ build CMakeFiles/Pong.dir/main.cpp.obj: CXX_COMPILER__Pong_unscanned_Debug C$:/U
   OBJECT_DIR = CMakeFiles\Pong.dir
   OBJECT_FILE_DIR = CMakeFiles\Pong.dir
 
+build CMakeFiles/Pong.dir/Player.cpp.obj: CXX_COMPILER__Pong_unscanned_Debug C$:/Users/kuba/Documents/GitHub/sfmlPong/Player.cpp || cmake_object_order_depends_target_Pong
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\Pong.dir\Player.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -isystem C:/Users/kuba/Documents/GitHub/sfmlPong/SFML/include
+  OBJECT_DIR = CMakeFiles\Pong.dir
+  OBJECT_FILE_DIR = CMakeFiles\Pong.dir
+
+build CMakeFiles/Pong.dir/Ball.cpp.obj: CXX_COMPILER__Pong_unscanned_Debug C$:/Users/kuba/Documents/GitHub/sfmlPong/Ball.cpp || cmake_object_order_depends_target_Pong
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\Pong.dir\Ball.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -isystem C:/Users/kuba/Documents/GitHub/sfmlPong/SFML/include
+  OBJECT_DIR = CMakeFiles\Pong.dir
+  OBJECT_FILE_DIR = CMakeFiles\Pong.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Pong
@@ -65,7 +81,7 @@ build CMakeFiles/Pong.dir/main.cpp.obj: CXX_COMPILER__Pong_unscanned_Debug C$:/U
 #############################################
 # Link the executable Pong.exe
 
-build Pong.exe: CXX_EXECUTABLE_LINKER__Pong_Debug CMakeFiles/Pong.dir/main.cpp.obj | C$:/Users/kuba/Documents/GitHub/sfmlPong/SFML/lib/libsfml-system-s-d.a C$:/Users/kuba/Documents/GitHub/sfmlPong/SFML/lib/libsfml-window-s-d.a C$:/Users/kuba/Documents/GitHub/sfmlPong/SFML/lib/libsfml-graphics-s-d.a C$:/Users/kuba/Documents/GitHub/sfmlPong/SFML/lib/libsfml-audio-s-d.a C$:/Users/kuba/Documents/GitHub/sfmlPong/SFML/lib/libsfml-window-s-d.a C$:/Users/kuba/Documents/GitHub/sfmlPong/SFML/lib/libfreetype.a C$:/Users/kuba/Documents/GitHub/sfmlPong/SFML/lib/libsfml-system-s-d.a
+build Pong.exe: CXX_EXECUTABLE_LINKER__Pong_Debug CMakeFiles/Pong.dir/main.cpp.obj CMakeFiles/Pong.dir/Player.cpp.obj CMakeFiles/Pong.dir/Ball.cpp.obj | C$:/Users/kuba/Documents/GitHub/sfmlPong/SFML/lib/libsfml-system-s-d.a C$:/Users/kuba/Documents/GitHub/sfmlPong/SFML/lib/libsfml-window-s-d.a C$:/Users/kuba/Documents/GitHub/sfmlPong/SFML/lib/libsfml-graphics-s-d.a C$:/Users/kuba/Documents/GitHub/sfmlPong/SFML/lib/libsfml-audio-s-d.a C$:/Users/kuba/Documents/GitHub/sfmlPong/SFML/lib/libsfml-window-s-d.a C$:/Users/kuba/Documents/GitHub/sfmlPong/SFML/lib/libfreetype.a C$:/Users/kuba/Documents/GitHub/sfmlPong/SFML/lib/libsfml-system-s-d.a
   FLAGS = -g
   LINK_LIBRARIES = C:/Users/kuba/Documents/GitHub/sfmlPong/SFML/lib/libsfml-system-s-d.a  C:/Users/kuba/Documents/GitHub/sfmlPong/SFML/lib/libsfml-window-s-d.a  C:/Users/kuba/Documents/GitHub/sfmlPong/SFML/lib/libsfml-graphics-s-d.a  C:/Users/kuba/Documents/GitHub/sfmlPong/SFML/lib/libsfml-audio-s-d.a  C:/Users/kuba/Documents/GitHub/sfmlPong/SFML/lib/libsfml-window-s-d.a  -lOpenGL32  -lgdi32  C:/Users/kuba/Documents/GitHub/sfmlPong/SFML/lib/libfreetype.a  C:/Users/kuba/Documents/GitHub/sfmlPong/SFML/lib/libsfml-system-s-d.a  -lwinmm  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Pong.dir
