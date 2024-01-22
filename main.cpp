@@ -1,9 +1,7 @@
 #include <iostream>
 #include <SFML/Graphics.hpp>
-#define windowWidth 1000
-#define windowHeight 1000
-#define circleRadius 20
-#define circleOutlineWidth 5
+#include "const_variables.h"
+
 void set_circle(sf::CircleShape &circle)
 {
     circle.setRadius(circleRadius);
@@ -14,14 +12,14 @@ void set_circle(sf::CircleShape &circle)
 }
 void set_rect(sf::RectangleShape &rect,bool down=true)
 {
-    rect.setSize(sf::Vector2f(200,5));
+    rect.setSize(sf::Vector2f(playerRectWidth,playerRectHeight));
     if(down)
     {
-        rect.setPosition(windowWidth/2-100,30);
+        rect.setPosition(windowWidth/2-playerRectWidth/2,30);
     }
     else
     {
-        rect.setPosition(windowWidth/2-100,windowHeight-30);
+        rect.setPosition(windowWidth/2-playerRectWidth/2,windowHeight-30);
     }
     rect.setFillColor(sf::Color::Green);
 }
