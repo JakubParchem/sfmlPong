@@ -9,8 +9,8 @@ class Ball
 public:
     Ball()
     {
-        sprite.setRadius(circleRadius);
-        sprite.setPosition(windowWidth / 2.0 - circleRadius, windowHeight / 2.0 - circleRadius);
+        sprite.setRadius(ballRadius);
+        sprite.setPosition(windowWidth / 2.0 - ballRadius, windowHeight / 2.0 - ballRadius);
         sprite.setFillColor(sf::Color::White);
     }
     void draw(sf::RenderWindow &window)

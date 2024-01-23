@@ -5,8 +5,8 @@
 #define SFMLPONG_CONST_VARIABLES_H
     #define windowWidth 1000
     #define windowHeight 1000
-    #define circleRadius 20.0
-    #define circleOutlineWidth 5.0
-    #define playerRectWidth 200.0
-    #define playerRectHeight 10.0
+    #define ballRadius 20.0
+    #define ballOutlineWidth 5.0
+    #define playerWidth 200.0
+    #define playerHeight 10.0
 #endif //SFMLPONG_CONST_VARIABLES_H
