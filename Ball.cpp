@@ -11,7 +11,7 @@ public:
     {
         sprite.setRadius(circleRadius);
         sprite.setPosition(windowWidth / 2.0 - circleRadius, windowHeight / 2.0 - circleRadius);
-        sprite.setFillColor(sf::Color::Green);
+        sprite.setFillColor(sf::Color::White);
     }
     void draw(sf::RenderWindow &window)
     {

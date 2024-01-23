@@ -12,14 +12,16 @@ public:
     {
         this->down=down;
         sprite.setSize(sf::Vector2f(playerRectWidth,playerRectHeight));
-        sprite.setFillColor(sf::Color::Green);
+
         if(this->down)
         {
             sprite.setPosition(windowWidth/2.0-playerRectWidth/2.0,30.0);
+            sprite.setFillColor(sf::Color::Blue);
         }
         else
         {
             sprite.setPosition(windowWidth/2.0-playerRectWidth/2.0,windowHeight-30.0);
+            sprite.setFillColor(sf::Color::Red);
         }
     }
     void draw(sf::RenderWindow &window)

@@ -8,5 +8,5 @@
     #define circleRadius 20.0
     #define circleOutlineWidth 5.0
     #define playerRectWidth 200.0
-    #define playerRectHeight 5.0
+    #define playerRectHeight 10.0
 #endif //SFMLPONG_CONST_VARIABLES_H
