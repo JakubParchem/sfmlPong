@@ -28,5 +28,9 @@ public:
     {
         window.draw(sprite);
     }
+    sf::Vector2f getPos()
+    {
+        return sprite.getPosition();
+    }
 
 };

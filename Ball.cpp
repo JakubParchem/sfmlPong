@@ -17,4 +17,18 @@ public:
     {
         window.draw(sprite);
     }
+    void collision(sf::Vector2f player_pos, float &speed) {
+        if(player_pos.x+playerWidth-sprite.getPosition().x>=0)
+        {
+            speed=-speed;
+       }
+    }
+    void move(float &speed)
+    {
+        sprite.move(0,speed);
+    }
+    sf::Vector2f getPos()
+    {
+        return sprite.getPosition();
+    }
 };
