@@ -17,15 +17,23 @@ public:
     {
         window.draw(sprite);
     }
-    bool isxcollision(sf::Vector2f player_pos) {
+    bool is_x_collision(sf::Vector2f player_pos) {
         if (player_pos.x + playerWidth - sprite.getPosition().x+ballRadius >= 0) {
             return true;
         }
         return false;
     }
-    bool isycollision()
+    bool is_y_collision(sf::Vector2f player_pos)
     {
-        if((sprite.getPosition().y>=30+ballRadius/2 and sprite.getPosition().y<=30.1+ballRadius/2) or (sprite.getPosition().y>=windowHeight-30-playerHeight-ballRadius and sprite.getPosition().y>=windowHeight-30.1-playerHeight-ballRadius))
+        if(player_pos.y == sprite.getPosition().y)
+        {
+            return true;
+        }
+        return false;
+    }
+    bool hit_edge()
+    {
+        if(sprite.getPosition().y<=0 or sprite.getPosition().y>=windowHeight+ballRadius)
         {
             return true;
         }
