@@ -17,13 +17,19 @@ public:
     {
         window.draw(sprite);
     }
-    void collision(sf::Vector2f player_pos, float &speed) {
-        if((sprite.getPosition().y>=30+ballRadius/2 and sprite.getPosition().y<=30.1+ballRadius/2) or (sprite.getPosition().y>=windowHeight-30-playerHeight-ballRadius and sprite.getPosition().y>=windowHeight-30.1-playerHeight-ballRadius)) {
-            if (player_pos.x + playerWidth - sprite.getPosition().x+ballRadius >= 0) {
-                speed = -speed;
-                return;
-            }
+    bool isxcollision(sf::Vector2f player_pos) {
+        if (player_pos.x + playerWidth - sprite.getPosition().x+ballRadius >= 0) {
+            return true;
         }
+        return false;
+    }
+    bool isycollision()
+    {
+        if((sprite.getPosition().y>=30+ballRadius/2 and sprite.getPosition().y<=30.1+ballRadius/2) or (sprite.getPosition().y>=windowHeight-30-playerHeight-ballRadius and sprite.getPosition().y>=windowHeight-30.1-playerHeight-ballRadius))
+        {
+            return true;
+        }
+        return false;
     }
     void move(float &speed)
     {

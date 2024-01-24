@@ -7,6 +7,7 @@ int main() {
     sf::RenderWindow window(sf::VideoMode(windowWidth, windowHeight), "SFML Circle");
     Ball ball;
     float speed=-0.05;
+    bool collided=false;
     Player player1,player2(false);
     while (window.isOpen()) {
         sf::Event event{};
@@ -16,11 +17,14 @@ int main() {
         }
         window.clear();
         ball.draw(window);
-        ball.move(speed);
         player1.draw(window);
         player2.draw(window);
-        ball.collision(player1.getPos(), speed);
-        ball.collision(player2.getPos(), speed);
+        if(ball.isycollision()) {
+            if(ball.isxcollision(player1.getPos()) or  ball.isxcollision(player2.getPos())){
+                speed*=(-1.0);
+            }
+        }
+        ball.move(speed);
         window.display();
     }
     return 0;
