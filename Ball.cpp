@@ -18,10 +18,12 @@ public:
         window.draw(sprite);
     }
     void collision(sf::Vector2f player_pos, float &speed) {
-        if(player_pos.x+playerWidth-sprite.getPosition().x>=0)
-        {
-            speed=-speed;
-       }
+        if((sprite.getPosition().y>=30+ballRadius/2 and sprite.getPosition().y<=30.1+ballRadius/2) or (sprite.getPosition().y>=windowHeight-30-playerHeight-ballRadius and sprite.getPosition().y>=windowHeight-30.1-playerHeight-ballRadius)) {
+            if (player_pos.x + playerWidth - sprite.getPosition().x+ballRadius >= 0) {
+                speed = -speed;
+                return;
+            }
+        }
     }
     void move(float &speed)
     {
