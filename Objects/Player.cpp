@@ -1,5 +1,5 @@
 #include <SFML/Graphics.hpp>
-#include "const_variables.h"
+#include "../const_variables.h"
 class Player
 {
     bool down;

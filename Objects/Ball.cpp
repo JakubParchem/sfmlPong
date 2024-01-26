@@ -2,7 +2,7 @@
 // Created by JakubParchem on 22.01.2024.
 //
 #include <SFML/Graphics.hpp>
-#include "const_variables.h"
+#include "../const_variables.h"
 class Ball
 {
     sf::CircleShape sprite;

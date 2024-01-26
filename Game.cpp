@@ -1,8 +1,8 @@
 #include <iostream>
 #include <SFML/Graphics.hpp>
 #include "const_variables.h"
-#include "Player.h"
-#include "Ball.h"
+#include "Objects/Player.h"
+#include "Objects/Ball.h"
 #include "Collision.h"
 class Game {
     Ball ball;

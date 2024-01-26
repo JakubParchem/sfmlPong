@@ -2,10 +2,10 @@ cmake_minimum_required(VERSION 3.26)
 project(sfmlPong)
 add_executable(Pong main.cpp
         const_variables.h
-        Player.cpp
-        Player.h
-        Ball.cpp
-        Ball.h
+        Objects/Player.cpp
+        Objects/Player.h
+        Objects/Ball.cpp
+        Objects/Ball.h
         Collision.cpp
         Collision.h
         Game.cpp
