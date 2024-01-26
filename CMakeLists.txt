@@ -8,6 +8,8 @@ add_executable(Pong main.cpp
         Ball.h
         Collision.cpp
         Collision.h
+        Game.cpp
+        Game.h
 )
 set(CMAKE_CXX_STANDARD 17)
 set(SFML_STATIC_LIBRARIES TRUE)

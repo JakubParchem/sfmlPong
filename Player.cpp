@@ -33,5 +33,9 @@ public:
     {
         return sprite;
     }
+    void set_down(bool a)
+    {
+        down=a;
+    }
 
 };
