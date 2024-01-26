@@ -3,7 +3,7 @@
 #include "const_variables.h"
 #include "Objects/Player.h"
 #include "Objects/Ball.h"
-#include "Collision.h"
+#include "Objects/Collision.h"
 class Game {
     Ball ball;
     Collision collision;

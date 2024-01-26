@@ -6,8 +6,8 @@ add_executable(Pong main.cpp
         Objects/Player.h
         Objects/Ball.cpp
         Objects/Ball.h
-        Collision.cpp
-        Collision.h
+        Objects/Collision.cpp
+        Objects/Collision.h
         Game.cpp
         Game.h
 )
