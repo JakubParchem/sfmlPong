@@ -1,17 +1,18 @@
 # ninja log v5
+3	719	7279909404821992	CMakeFiles/Pong.dir/main.cpp.obj	21932f2d3ffc6439
 0	372	7274955234564927	CMakeFiles/sfmlPong.dir/main.cpp.obj	36a21977f92acc24
-1	147	7279909396965368	build.ninja	c7db945f620e2b70
-3	650	7279906689350138	CMakeFiles/Pong.dir/main.cpp.obj	21932f2d3ffc6439
-650	1071	7279906693503277	Pong.exe	98b8b66c413e2d7
+1	150	7279911896782081	build.ninja	c7db945f620e2b70
+719	1185	7279909409431570	Pong.exe	336174c176434233
 4	766	7279905150786832	CMakeFiles/Pong.dir/Player.cpp.obj	875ef706629e6b0b
-11	756	7279889050844160	CMakeFiles/Pong.dir/Ball.cpp.obj	6927c14ea8c73962
 6	556	7279892195625871	CMakeFiles/Pong.dir/collision_handler.cpp.obj	2783d76bf4a6dd20
+11	756	7279889050844160	CMakeFiles/Pong.dir/Ball.cpp.obj	6927c14ea8c73962
 6	559	7279893896845724	CMakeFiles/Pong.dir/collision.cpp.obj	5d69058a68a5c23a
 6	534	7279896126142416	CMakeFiles/Pong.dir/Collision.cpp.obj	6bd6372a1f932c15
-7	597	7279906688816644	CMakeFiles/Pong.dir/Game.cpp.obj	51fb111fe4f43f15
-1	150	7279909396965368	build.ninja	c7db945f620e2b70
+13	688	7279909404516066	CMakeFiles/Pong.dir/Game.cpp.obj	51fb111fe4f43f15
 6	647	7279909404097839	CMakeFiles/Pong.dir/Objects/Player.cpp.obj	92d6bc2585ad48a2
 9	659	7279909404167653	CMakeFiles/Pong.dir/Objects/Ball.cpp.obj	91e32711e5b58b75
-13	688	7279909404516066	CMakeFiles/Pong.dir/Game.cpp.obj	51fb111fe4f43f15
-3	719	7279909404821992	CMakeFiles/Pong.dir/main.cpp.obj	21932f2d3ffc6439
-719	1185	7279909409431570	Pong.exe	336174c176434233
+1	147	7279911896782081	build.ninja	c7db945f620e2b70
+6	585	7279911903262789	CMakeFiles/Pong.dir/Objects/Collision.cpp.obj	90ac2f436f9c5bc5
+3	611	7279911903541902	CMakeFiles/Pong.dir/Game.cpp.obj	51fb111fe4f43f15
+9	659	7279911904013181	CMakeFiles/Pong.dir/main.cpp.obj	21932f2d3ffc6439
+659	1116	7279911908532078	Pong.exe	f4ef5e81dc3f9ad6

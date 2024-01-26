@@ -10,6 +10,7 @@ add_executable(Pong main.cpp
         Objects/Collision.h
         Game.cpp
         Game.h
+        game.includes.h
 )
 set(CMAKE_CXX_STANDARD 17)
 set(SFML_STATIC_LIBRARIES TRUE)
