@@ -5,7 +5,10 @@ add_executable(Pong main.cpp
         Player.cpp
         Player.h
         Ball.cpp
-        Ball.h)
+        Ball.h
+        Collision.cpp
+        Collision.h
+)
 set(CMAKE_CXX_STANDARD 17)
 set(SFML_STATIC_LIBRARIES TRUE)
 set(SFML_DIR SFML/lib/cmake/SFML)

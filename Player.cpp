@@ -1,13 +1,10 @@
-//
-// Created by JakubParchem on 22.01.2024.
-//
 #include <SFML/Graphics.hpp>
 #include "const_variables.h"
 class Player
 {
-    sf::RectangleShape sprite;
     bool down;
 public:
+    sf::RectangleShape sprite;
     Player(bool down=true)
     {
         this->down=down;
@@ -31,6 +28,10 @@ public:
     sf::Vector2f getPos()
     {
         return sprite.getPosition();
+    }
+    sf::RectangleShape get_sprite()
+    {
+        return sprite;
     }
 
 };
